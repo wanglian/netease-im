@@ -1,11 +1,46 @@
 {
-  "name": "@daorren/netease-im",
-  "version": "1.0.2",
+  "name": "netease-im",
+  "version": "1.0.1",
   "private": false,
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/_mocha --timeout 10000 --ui bdd  --recursive ./test",
-    "publish": "npm publish --access=public"
+    "test": "node ./node_modules/mocha/bin/_mocha --timeout 10000 --ui bdd  --recursive ./test"
   },
+  "author": {
+    "name": "Henry Leu",
+    "email": "henryleu@126.com",
+    "url": "https://github.com/henryleu"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/henryleu/netease-im.git"
+  },
+  "bugs": {
+    "url": "https://github.com/henryleu/netease-im/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/henryleu/netease-im/raw/master/LICENSE"
+    }
+  ],
+  "homepage": "https://github.com/henryleu/netease-im",
+  "keywords": [
+    "netease",
+    "im",
+    "nim",
+    "sdk",
+    "server",
+    "push",
+    "notification",
+    "instance messaging",
+    "social networking"
+  ],
+  "maintainers": [
+    {
+      "name": "henryleu",
+      "email": "henryleu@126.com"
+    }
+  ],
   "dependencies": {
     "request": "^2.69.0",
     "crypto-js": "^3.1.9-1"
