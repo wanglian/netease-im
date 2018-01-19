@@ -42,8 +42,7 @@
     }
   ],
   "dependencies": {
-    "request": "^2.69.0",
-    "crypto-js": "^3.1.9-1"
+    "request": "^2.69.0"
   },
   "devDependencies": {
     "bluebird": "^2.10.2",
